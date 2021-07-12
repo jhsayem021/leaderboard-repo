@@ -71,3 +71,32 @@ Top blog
 .blog-info a{
     text-decoration: none;
 }
+/* --------------
+  Latest courses
+----------------- */
+.courses{
+    display: flex;
+   
+}
+.course{
+    margin-right: 20px;
+}
+.course-bannar img{
+    width: 224px;
+ height: 104px;
+}
+.course-info{
+    display: flex;
+    justify-content: space-between;
+}
+.course-info .filled {
+    color: #FFC014;
+    Width :12.39px;
+Height: 11.81px;
+}
+.course-duration{
+    display: flex;
+    align-items: center;
+    color:#ED6B4F;
+    background-color:#FFE4E8 ;
+}
