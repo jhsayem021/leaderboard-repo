@@ -100,3 +100,47 @@ Height: 11.81px;
     color:#ED6B4F;
     background-color:#FFE4E8 ;
 }
+/* media Quaries */
+
+
+/* Mobile device */
+
+@media only screen and (max-width:688px) {
+    .container , .blogs,.courses{
+        width: 100%;
+        
+    }
+    .players,.blogs,.courses{
+        
+    grid-template-columns: repeat(1,1fr);
+    
+    }
+    .player,.blog,.courses{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    
+}
+
+/* ipad and Tab device */
+
+@media only screen and (min-width:688px) and (max-width:768px){
+    .container , .blogs,.courses{
+        width: 100%;
+        
+    }
+    .players,.blogs,.courses{
+        
+    grid-template-columns: repeat(1,1fr);
+    
+    }
+    .player,.blog,.courses{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    
+}
